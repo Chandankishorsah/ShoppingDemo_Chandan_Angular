@@ -1,0 +1,159 @@
+.product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the text under the image */
+    height: 300px; /* Set a fixed height for the card */
+  }
+  
+  .product-image {
+    width: 100%;
+    height: auto; /* Adjusts height proportionally */
+    max-height: 200px; /* Limits the height of the image */
+  }
+  
+  .category-text {
+    margin-top: auto; /* Pushes the text down to the bottom of the card */
+    text-align: center; /* Centers the text */
+  }
+  a{
+    text-decoration: none;
+  }
+  .nav-link.active {
+    color: #a90b0b !important;
+    border-bottom: 2px solid #a90b0b;
+  }
+  .mySwiper {
+    width: 100%;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+//   .thumb {
+//     // max-height: 250px; 
+//     height: 300px;      /* Sets a max height for images */
+//          /* Sets a max height for images */
+//     object-fit: contain;      /* Ensures images maintain aspect ratio */
+//   }
+// .carousel {
+//     margin: 20px 0;
+//   }
+  
+//   .slide {
+//     display: flex;
+//     justify-content: center; /* Center the card */
+//   }
+  
+  .thumb {
+    width: 100%; /* Ensure the image takes the full width of the card */
+    height: 200px; /* Fixed height to ensure consistency */
+    // object-fit: fill;
+    object-fit: scale-down;
+     
+    /* Maintain aspect ratio and cover the entire area */
+  }
+  
+  .card {
+    width: 100%; /* Ensure the card takes the full width of the slide */
+    height: auto; /* Automatic height */
+    display: flex;
+    flex-direction: column; /* Ensure proper stacking of card elements */
+  }
+  
+  .card-body {
+    flex: 1; /* Make sure the card body takes remaining space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     /* Center content vertically */
+     padding: 8px 0px 0px 8px;
+  }
+  
+  li{
+    text-decoration: none;
+    list-style: none;
+  }
+  .carousel {
+    // margin: 20px 0;
+  }
+  
+  .slide {
+    display: flex;
+    justify-content: center;
+  }
+//   .card :hover{
+//     border-color: #a90b0b;
+//   }
+  
+//   .thumb {
+//     width: 100%;
+//     height: 200px;
+//     object-fit: cover;
+//   }
+  
+  .navigation-buttons {
+    display: flex;
+    justify-content: flex-end; /* Align to the right */
+  }
+  /* Label styling */
+.label-container {
+    display: flex;
+    justify-content: flex-end;
+    width: -webkit-fill-available;
+  }
+  
+  .discount-label, .new-label {
+    width: 3rem;
+    height: auto;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .discount-label {
+    border: 2px solid #a90b0b;
+    color: #a90b0b;
+  }
+  
+  .new-label {
+    border: 2px solid #a90b0b;
+    color: white;
+    background-color: #a90b0b;
+    margin-right: 0.5rem;
+  }
+  
+  /* Button styling for hanging effect */
+  .button-container {
+    position: relative;
+ /* Adjusts the height below the card */
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .product-card:hover .button-container,
+.product-card:focus .button-container {
+  opacity: 1;
+}
+.product-card:hover,
+.product-card:focus {
+  border: 2px solid #a90b0b;
+}
+  
+  .add-to-cart-btn {
+    width: -webkit-fill-available;
+    border-radius: 0 0 5px 5px;
+  }
+  h3{
+    // font-size: large;
+    font-size: 20px;
+    margin: inherit;
+  }
+  
+  
+  
+  

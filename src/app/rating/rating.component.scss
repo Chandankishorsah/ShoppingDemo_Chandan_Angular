@@ -1,0 +1,18 @@
+.star-rating {
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .star {
+    width: 1.2rem; /* Adjust size as needed */
+    height: 1.2rem;
+    background-size: cover;
+    margin-right: 2px;
+    clip-path: polygon(50% 0%, 63% 38%, 100% 38%, 69% 59%, 82% 100%, 50% 75%, 18% 100%, 31% 59%, 0% 38%, 37% 38%);
+  }
+  
+  /* Optional hover effect */
+  .star-rating:hover .star {
+    transform: scale(1.1);
+  }
+  

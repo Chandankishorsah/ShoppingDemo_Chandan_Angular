@@ -1,1 +1,305 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+// body {
+//     .slick-prev {
+//         left: 3.8vw;
+//         // height: 50px;
+//         // width: 50px;
+//         // font-size: 80px;
+//         z-index: 122;
+//         // display: none;
+//     }
+
+//     .slick-next {
+//         right: 5.8vw;
+//         // height: 50px;
+//         // width: 50px;
+//         // font-size: 80px;
+//         z-index: 122;
+//         // display: none;
+
+//     }
+//     // .slick-dots, .slick-next, .slick-prev {
+//     //     position: fixed;
+//     //     display: block;
+//     //     padding: 0;
+//     // }
+
+    
+
+//     .slick-prev:before,
+//     .slick-next:before {
+//         font-family: 'slick';
+//         font-size: 50px;
+//         line-height: 1;
+//         opacity: 1;
+//         color: red;
+//         z-index: 122;
+//         display: none;
+
+//         -webkit-font-smoothing: antialiased;
+//         -moz-osx-font-smoothing: grayscale;
+//     }
+
+//     .show-btn-prew:hover {
+
+//         .slick-prev:before,
+//         .slick-next:before {
+//             font-family: 'slick';
+//             font-size: 50px;
+//             line-height: 1;
+//             opacity: 1;
+//             color: red;
+
+//             z-index: 122;
+//             display: block;
+
+//             -webkit-font-smoothing: antialiased;
+//             -moz-osx-font-smoothing: grayscale;
+//         }
+
+
+//     }
+
+//     @media (min-width:320px) and (max-width:465px) {
+//       .rail-title{
+//       font-size: 18px !important;
+//       font-weight: 700;
+//      }
+//         .Big_screen{
+//             display: none;
+//           }
+//           .Small_Screen{
+//             display: block;
+//           }
+//             .row_title {
+//               font-size: 1.3rem;
+//               font-weight: 600;
+//             }
+            
+//             .row_posters {
+//               // position: relative;
+//               display: flex;
+//               align-items: center;
+//               overflow-y: hidden;
+//               overflow-x: scroll;
+//               min-height: 215px;
+//               transition: 500ms;
+//               scroll-behavior: smooth;
+//             }
+            
+//             .row_posters::-webkit-scrollbar {
+//               display: none;
+//             }
+            
+//             .row_poster {
+//               object-fit: contain;
+//               height: 100%;
+//             }
+            
+//             .wrap {
+//               display: inline-block;
+//               position: relative;
+//               height: 156px;
+//               width: fit-content;
+//               margin: 0 1px;
+//               cursor: pointer;
+//               // transition: height 500ms;
+//             }
+            
+//             // .wrap:hover {
+//             //   // height: 187px;
+//             //   transform: scale(1.2);
+//             // }
+            
+//             .poster_title {
+//               font-family: "Cinzel", serif;
+//               position: absolute;
+//               left: 20px;
+//               bottom: 20px;
+//               color: #f0f0f0;
+//               text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+//               opacity: 1;
+//               transition: opacity 2000ms 1000ms;
+//             }
+//             .wrap:hover .poster_title {
+//               opacity: 0;
+//               transition: opacity 100ms;
+//             }
+            
+//             .poster_info {
+//               position: absolute;
+//               left: 5px;
+//               bottom: 50px;
+//               font-weight: 300;
+//               font-size: 0.75rem;
+//               width: 250px;
+//               text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+//               opacity: 0;
+//               transition: opacity 100ms;
+//             }
+//             .wrap:hover .poster_info {
+//               opacity: 1;
+//               transition: opacity 2000ms;
+//             }
+//             .poster_info p {
+//               padding-top: 5px;
+//             }
+//             .scroll_button {
+//               position: absolute;
+//               height: 187px;
+//               width: 43px;
+//               background-color: #0f0f0f4b;
+//               display: flex;
+//               align-items: center;
+//               justify-content: space-around;
+//               cursor: pointer;
+//             }
+//             .right_arrow {
+//               right: 60px;
+//               opacity: 0;
+//               visibility: hidden;
+//               transform: translateX(20%);
+//               transition: all 500ms;
+//             }
+//             .left_arrow {
+//               left: 60px;
+//               opacity: 0;
+//               visibility: hidden;
+//               transform: translateX(-20%);
+//               transition: all 500ms;
+//             }
+//             .row_posters:hover .right_arrow {
+//               opacity: 1;
+//               visibility: visible;
+//               transform: translateX(0%);
+//             }
+//             .row_posters:hover .left_arrow {
+//               opacity: 1;
+//               visibility: visible;
+//               transform: translateX(0%);
+//             }
+//             .space {
+//               min-width: 155px;
+//               height: 126px;
+//             }
+//             .arrow {
+//               border: solid white;
+//               border-width: 0 3px 3px 0;
+//               display: inline-block;
+//               padding: 3px;
+//             }
+            
+//             .right {
+//               transform: rotate(-45deg);
+//               -webkit-transform: rotate(-45deg);
+//             }
+            
+//             .left {
+//               transform: rotate(135deg);
+//               -webkit-transform: rotate(135deg);
+//             }
+          
+
+//         .slick-prev {
+//             left: -3vw;
+//             height: 10px !important;
+//             width: 10px !important;
+//             font-size: 20px !important;
+//             z-index: 12222;
+//             background-color: transparent;
+//         }
+//         // .slick-list {
+//         //     overflow: unset !important;
+//         //     margin: 0;
+//         //     padding: 0;
+//         //     -webkit-overflow-scrolling: touch;
+//         //   }
+
+//         .slick-next {
+//             right: 5vw;
+//             height: 10px !important;
+//             width: 10px !important;
+//             font-size: 20px !important;
+//             z-index: 12222;
+//             background-color: transparent;
+
+//         }
+
+//         .slick-prev:before,
+//         .slick-next:before {
+//             font-family: 'slick';
+//             font-size: 42px;
+//             line-height: 1;
+//             opacity: .75;
+//             color: red;
+//             -webkit-font-smoothing: antialiased;
+//             -moz-osx-font-smoothing: grayscale;
+//         }
+
+//         // .down-top {
+//         //     position: relative;
+//         //     right: 1% !important;
+//         //     bottom: -7.2rem !important;
+//         // }
+//     }
+
+//     @media (min-width:600px) and (max-width:900px){
+//       .slick-track {
+//         position: relative;
+//         top: 0;
+//         left: 0;
+//         display: block;
+//          margin-left: 0 !important; 
+//         margin-right: auto; 
+//     }
+//   //   .slick-next, .slick-prev {
+//   //     font-size: 0;
+//   //     line-height: 0;
+//   //     top: 20% !important;
+//   //     width: 20px;
+//   //     height: 20px;
+//   //     margin-top: -10px\9;
+//   //     -webkit-transform: translate(0,-50%);
+//   //     -ms-transform: translate(0,-50%);
+//   //     transform: translate(0,-50%);
+//   //     cursor: pointer;
+//   //     color: transparent;
+//   //     border: none;
+//   //     outline: 0;
+//   //     background: 0 0;
+//   // }
+//     }
+
+//     @media (min-width:1910px) and (max-width:2600px) {
+//         .slick-prev {
+//             left: 7.3vw;
+//             // height: 50px;
+//             // width: 50px;
+//             // font-size: 80px;
+//             z-index: 12222;
+//         }
+
+//         .slick-next {
+//             right: 8.9vw;
+//             // height: 50px;
+//             // width: 50px;
+//             // font-size: 80px;
+//             z-index: 12222;
+//         }
+
+//         .slick-prev:before,
+//         .slick-next:before {
+//             font-family: 'slick';
+//             font-size: 50px;
+//             line-height: 1;
+//             opacity: 1;
+//             color: red;
+//             z-index: 122;
+//             -webkit-font-smoothing: antialiased;
+//             -moz-osx-font-smoothing: grayscale;
+//         }
+//     }
+// }
