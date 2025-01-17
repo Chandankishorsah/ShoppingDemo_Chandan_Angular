@@ -25,6 +25,7 @@ export class CountdownTimerComponent {
       if (remainingTime <= 0) {
         clearInterval(this.countdownInterval);
         return;
+        
       }
 
       remainingTime--;
